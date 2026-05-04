@@ -103,3 +103,12 @@ main {
   margin-top: 15px;
 }
 
+
+#social a {
+ color: var(--destaque);
+ transition: color 0.5s;
+}
+
+#social a:hover {
+  color: var(--destaque-inverso);
+}
