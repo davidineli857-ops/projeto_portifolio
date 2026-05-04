@@ -45,14 +45,14 @@ header {
 }
 
 
-#menu img {
+#menu a {
   color: var(--texto-inverso);
   padding: 12px 15px;
   border-radius: 5px;
 
 }
 
-#menu img:hover {
+#menu a:hover {
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
