@@ -180,6 +180,29 @@ align-items: center;
   border-radius: 4px;
 }
 
+#formacao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 4px solid var(--destaque-inverso);
+  padding-left: 15px;
+  transition: border-width 0.5s;
+}
+
+#formacao-container .curso:hover {
+  border-left-width: 15px;
+  border-color: var(--destaque);
+  cursor: pointer;
+}
+
+
+
+
 @media screen and (min-width:768px) {
   #skill-container {
     grid-template-columns: 1fr 1fr;
