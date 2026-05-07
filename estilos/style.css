@@ -36,6 +36,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position:sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #menu ul {
@@ -244,8 +247,23 @@ align-items: center;
  border-radius: 6px;
 }
 
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 15px;
 
+}
 
+footer a {
+  color: var(--texto-inverso);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--destaque-inverso);
+}
 
 @media screen and (min-width:768px) {
   #skill-container {
