@@ -241,6 +241,7 @@ align-items: center;
  aspect-ratio: 16/9;
  object-fit: cover;
  overflow: hidden;
+ border-radius: 6px;
 }
 
 
@@ -250,6 +251,21 @@ align-items: center;
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
+
+
+#projeto-container .projeto {
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
+#projeto-container .projeto-info {
+  max-width: 80%;
+}
 
+#projeto-container .foto {
+  aspect-ratio: 1/1;
+  max-width: 20%;
+  max-height: 200px;
+}
+
+}
