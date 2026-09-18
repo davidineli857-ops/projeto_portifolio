@@ -314,3 +314,28 @@ footer a:hover {
 }
 
 
+@media print {
+
+  #video {
+    display: none;
+  }
+
+  .video-container {
+    display:none;
+  }
+
+  #formacao-container {
+   padding-top: 60px;
+   padding-bottom: 35px;
+  }
+
+  .projeto {
+   margin-top: 30px;
+   margin-bottom: 30px;
+  }
+
+}
+
+/**.projeto {
+    page-break-inside: avoid;
+  }**/
