@@ -207,6 +207,10 @@ align-items: center;
   transition: border-width 0.5s,border-color 0.5s;
 }
 
+.curso{
+  margin-top: 5px;
+}
+
 #formacao-container .curso:hover {
   border-left-width: 15px;
   border-color: var(--destaque);
@@ -326,7 +330,7 @@ footer a:hover {
 
   #formacao-container {
    padding-top: 60px;
-   padding-bottom: 35px;
+   padding-bottom: 7px;
   }
 
   .projeto {
